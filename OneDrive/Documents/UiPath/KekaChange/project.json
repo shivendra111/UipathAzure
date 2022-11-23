@@ -1,22 +1,19 @@
 {
-  "name": "kekaHubstaffIntegration",
+  "name": "KekaChange",
   "description": "Blank Process",
   "main": "Main.xaml",
   "dependencies": {
-    "UiPath.Credentials.Activities": "[2.0.0]",
-    "UiPath.Excel.Activities": "[2.16.0]",
-    "UiPath.GSuite.Activities": "[1.16.2]",
-    "UiPath.Mail.Activities": "[1.18.0]",
-    "UiPath.System.Activities": "[22.10.1]",
-    "UiPath.Testing.Activities": "[22.10.0]",
-    "UiPath.UIAutomation.Activities": "[22.10.1]",
+    "UiPath.Excel.Activities": "[2.12.3]",
+    "UiPath.Mail.Activities": "[1.15.2]",
+    "UiPath.System.Activities": "[22.4.4]",
+    "UiPath.UIAutomation.Activities": "[22.4.7]",
     "UiPath.WebAPI.Activities": "[1.13.1]"
   },
   "webServices": [],
   "entitiesStores": [],
   "schemaVersion": "4.0",
-  "studioVersion": "22.10.1.0",
-  "projectVersion": "1.0.1",
+  "studioVersion": "22.4.4.0",
+  "projectVersion": "1.0.0",
   "runtimeOptions": {
     "autoDispose": false,
     "netFrameworkLazyLoading": false,
@@ -51,7 +48,7 @@
   "entryPoints": [
     {
       "filePath": "Main.xaml",
-      "uniqueId": "8460eb67-c661-40a6-ab80-4570ac6a2410",
+      "uniqueId": "f755c561-694d-4f49-ab0c-7696e511395a",
       "input": [],
       "output": []
     }
@@ -59,5 +56,5 @@
   "isTemplate": false,
   "templateProjectData": {},
   "publishData": {},
-  "targetFramework": "Windows"
+  "targetFramework": "Legacy"
 }
